@@ -25,8 +25,15 @@ if __name__ == "__main__":
     pygame.font.init()
     if vehicleNum == 3:
         vehicleNum = 5
+        vehicle_name = 'CitroenC3'
     elif vehicleNum == 1 or vehicleNum == 2 or vehicleNum == 4:
         vehicleNum = vehicleNum
+        if vehicleNum == 1:
+            vehicle_name = 'AudiA2'
+        elif vehicleNum == 2:
+            vehicle_name = 'AudiTt'
+        else:
+            vehicle_name = 'Truck_CarlaCola'
     else:
         print('Wrong VehicleNum Input ... 1 (Audi A2), 2 (Audi Tt), 3 (Citroen C3), 4 (Truck, CarlaCola)')
         exit()
@@ -55,7 +62,7 @@ if __name__ == "__main__":
 
     print('TESTING: vehicleNum: ', vehicleNum)
     os.makedirs('./test/sac-stg2/vehicles/',exist_ok=True)
-    save_path = './test/sac-stg2/vehicles/'+ str(vehicleNum)
+    save_path = './test/sac-stg2/vehicles/'+ vehicle_name
     save_file = open(save_path + '.csv','w')
     writer = csv.writer(save_file)
     writer.writerow(headers)

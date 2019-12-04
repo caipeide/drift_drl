@@ -20,3 +20,6 @@ python test_sac_different_vehicles.py --vehicleNum 4
 
 echo '########  Testing: SAC on vehicle-1 with different frictions ########'
 python test_sac_different_frictions.py
+
+echo '########  Testing: SAC with rough reference trajectory ( x,y waypoints only) ########'
+python test_sac_app.py
