@@ -1,6 +1,9 @@
 # High-speed Autonomous Drifting with Deep Reinforcement Learning
 
-<div align=center> <img src="./images/drift.gif" width=450 alt="High-speed drifting cornering by the proposed deep RL controller"/>
+<div align=center> 
+<img src="./images/1.gif" width=230 alt="High-speed drifting cornering by the proposed deep RL controller"/>
+<img src="./images/2.gif" width=230 alt="High-speed drifting cornering by the proposed deep RL controller"/>
+<img src="./images/3.gif" width=230 alt="High-speed drifting cornering by the proposed deep RL controller"/>
 </div>
 
 ## Reference trajectorires for seven maps
