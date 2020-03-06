@@ -24,4 +24,22 @@ weights are located in `weights/`, where four kinds of models are included. Note
 ## Test code
 run `sh code/test.sh` to test different models on map(g) with various setups. The driving data (timestamp, speed, location, heading, slip angle, control commands, etc.) will be recorded in `code/test/` after the testing process.
 
+## Citation
+
+Please consider to cite our paper if this work helps:
+```
+@ARTICLE{8961997,
+author={P. {Cai} and X. {Mei} and L. {Tai} and Y. {Sun} and M. {Liu}},
+journal={IEEE Robotics and Automation Letters},
+title={High-Speed Autonomous Drifting With Deep Reinforcement Learning},
+year={2020},
+volume={5},
+number={2},
+pages={1247-1254},
+keywords={Deep learning in robotics and automation;field robots;motion control;deep reinforcement learning;racing car},
+doi={10.1109/LRA.2020.2967299},
+ISSN={2377-3774},
+month={April},}
+```
+
 [Project homepage](https://sites.google.com/view/autonomous-drifting-with-drl)
