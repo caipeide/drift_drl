@@ -274,10 +274,10 @@ class environment():
 		self.start_point = carla.Transform(location = start_location, rotation = start_rotation)  # type : Transform (location, rotation)
 		ego_yaw = self.start_point.rotation.yaw
 
-		# if not self.collectFlag:
-		# 	if traj_num not in self.traj_drawn_list:
-		# 		self.drawPoints()
-		# 		self.traj_drawn_list.append(traj_num)
+		if not self.collectFlag:
+			if traj_num not in self.traj_drawn_list:
+				self.drawPoints()
+				self.traj_drawn_list.append(traj_num)
 
 		
 		ego_yaw = ego_yaw/180.0 * 3.141592653
