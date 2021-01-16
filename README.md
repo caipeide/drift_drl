@@ -16,7 +16,7 @@
 3. Install [Anaconda](https://www.anaconda.com/), which is a package manager, environment manager, and Python distribution.
 4. Install the environment:
 ```console
-conda env create -f environment.yaml
+conda env create -f environment_drift.yaml
 ```
 This command will create a conda environment named `drift`
 
